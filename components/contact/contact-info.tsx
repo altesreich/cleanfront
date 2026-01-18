@@ -11,7 +11,7 @@ export function ContactInfo() {
     {
       icon: MapPin,
       title: "Address",
-      details: ["123 Clean Street", "Spotless City, SC 12345"],
+      details: ["123 Prestige Avenue", "Elite City, EC 12345"],
     },
     {
       icon: Phone,
@@ -21,7 +21,7 @@ export function ContactInfo() {
     {
       icon: Mail,
       title: "Email",
-      details: ["hello@vellaclean.com", "support@vellaclean.com"],
+      details: ["hello@prestigecleaningbycaro.com", "support@prestigecleaningbycaro.com"],
     },
     {
       icon: Clock,

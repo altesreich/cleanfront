@@ -38,7 +38,7 @@ export function GiftSection() {
                   </div>
                   <div>
                     <p className="text-sm uppercase tracking-wider opacity-80 mb-2">Gift Card</p>
-                    <p className="font-serif text-3xl lg:text-4xl font-semibold">Vella Clean</p>
+                    <p className="font-serif text-3xl lg:text-4xl font-semibold">Prestige Cleaning By Caro</p>
                   </div>
                   <div className="pt-8 border-t border-primary-foreground/20">
                     <p className="text-sm opacity-80">For someone special</p>
@@ -70,7 +70,7 @@ export function GiftSection() {
               className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 h-14 text-base transition-all duration-300 hover:scale-105 active:scale-95 group"
             >
               <Gift className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
-              Gift a Clean
+              Get a Gift Card
             </Button>
           </div>
         </div>

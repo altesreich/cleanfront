@@ -7,9 +7,9 @@ import { Timeline } from "@/components/about/timeline"
 import { AboutCTA } from "@/components/about/about-cta"
 
 export const metadata: Metadata = {
-  title: "About | Vella Clean",
+  title: "About | Prestige Cleaning By Caro",
   description:
-    "Learn about Vella Clean - the modern solution for a spotless home. Discover our story, values, and commitment to exceptional cleaning.",
+    "Learn about Prestige Cleaning By Caro - the modern solution for a spotless home. Discover our story, values, and commitment to exceptional cleaning.",
 }
 
 export default function AboutPage() {

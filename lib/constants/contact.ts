@@ -1,15 +1,15 @@
 export const contactInfo = {
   address: {
-    street: "123 Clean Street",
-    city: "Spotless City, SC 12345",
+    street: "123 Prestige Avenue",
+    city: "Elite City, EC 12345",
   },
   phone: {
     primary: "(555) 123-CLEAN",
     secondary: "(555) 123-2468",
   },
   email: {
-    primary: "hello@vellaclean.com",
-    support: "support@vellaclean.com",
+    primary: "hello@prestigecleaningbycaro.com",
+    support: "support@prestigecleaningbycaro.com",
   },
   businessHours: {
     weekdays: "Mon-Fri: 8AM - 6PM",
@@ -18,7 +18,7 @@ export const contactInfo = {
 }
 
 export const companyInfo = {
-  name: "Vella Clean",
-  tagline: "The modern solution for a spotless home",
-  description: "Professional cleaning services tailored to your needs",
+  name: "Prestige Cleaning By Caro",
+  tagline: "Residential & commercial cleaning with hotel-level detail.",
+  description: "Professional cleaning services with premium attention to detail",
 }

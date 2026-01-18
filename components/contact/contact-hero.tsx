@@ -25,7 +25,7 @@ export function ContactHero() {
         >
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight">
             Get in touch with{" "}
-            <span className="italic text-primary">Vella Clean</span>.
+            <span className="italic text-primary">Prestige Cleaning By Caro</span>.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
             Ready to experience the clean of your dreams? Contact us today and let's make your home spotless.

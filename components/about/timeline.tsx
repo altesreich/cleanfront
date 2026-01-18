@@ -4,33 +4,33 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const timelineItems = [
   {
-    year: "1913",
-    title: "Meet Vella",
+    year: "2020",
+    title: "The Vision Begins",
     description:
-      "Born in 1913, Vella Veatch was our founder and CEO's grandmother. She held the values of hard work, resilience, and spotless grout near and dear.",
+      "Caro recognized the need for premium cleaning services that combine meticulous attention to detail with professional efficiency. Her passion for perfection drives every cleaning.",
     image:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
-    imageAlt: "Vella Veatch portrait",
+    imageAlt: "Professional cleaner with vision for excellence",
     layout: "left",
   },
   {
-    year: "2009",
-    title: "How it all started",
+    year: "2022",
+    title: "Building the Foundation",
     description:
-      "Jeri carried these values with her when she moved her family to Dallas and founded Highland Park Housekeeping. Over the next 15 years, HPH grew to become Dallas's #1 cleaning service, with 42 teams cleaning across DFW.",
+      "Prestige Cleaning By Caro was established with a commitment to hotel-level detail in every residential and commercial space. We assembled a team of expertly trained professionals.",
     image:
       "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80",
-    imageAlt: "Cleaning supplies",
+    imageAlt: "Professional cleaning supplies and equipment",
     layout: "right",
   },
   {
-    year: "2023",
-    title: "Vella was born",
+    year: "2024",
+    title: "Excellence in Action",
     description:
-      "In 2023, after meticulous research, relentless fine-tuning, and putting thousands of sponges to the test, Jeri launched Vella—a fresh approach designed specifically to solve the timeless challenges of keeping a home truly spotless. The secret? Doing things the Vella way: completely, thoroughly, and never cutting corners.",
+      "Today, Prestige Cleaning By Caro delivers unparalleled cleaning services with state-of-the-art equipment and a dedication to health, safety, and customer satisfaction. No arrival windows, just premium results.",
     image:
       "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80",
-    imageAlt: "Modern Vella cleaning",
+    imageAlt: "Professional cleaning team at work",
     layout: "left",
   },
 ]

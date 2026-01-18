@@ -21,12 +21,12 @@ export function CleanQuiz() {
               Discover Your Perfect Clean.
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Cleaning isn&apos;t one size fits all &ndash; that&apos;s why we use an algorithm to
-              generate custom cleans for each person. Take our Clean Quiz to find out exactly what
-              you need.
+              Every space is unique &ndash; that&apos;s why we customize our cleaning services to
+              match your specific needs. Get a personalized quote to find out exactly what
+              your space deserves.
             </p>
             <p className="text-xl font-semibold text-foreground">
-              We&apos;ll even throw in 20% off.
+              We'll even throw in 20% off your first booking.
             </p>
             <Button
               size="lg"

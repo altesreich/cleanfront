@@ -35,9 +35,9 @@ export function HeroSection() {
             }`}
           >
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight">
-              <span className="italic text-primary">Custom</span> housekeeping on demand.
+              <span className="italic text-primary">Residential & commercial</span> cleaning with hotel-level detail.
               <br />
-              That&apos;s the <span className="italic text-primary">Vella</span> way.
+              That&apos;s the <span className="italic text-primary">Prestige Cleaning By Caro</span> way.
             </h1>
 
             <p
@@ -45,8 +45,8 @@ export function HeroSection() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               }`}
             >
-              Vella is an exceptional cleaning experience that leaves more than just a fresh scent
-              &ndash; it leaves a lasting impression.
+              Experience exceptional cleaning that leaves more than just a fresh scent
+              &ndash; it leaves a lasting impression of perfection.
             </p>
 
             <div
@@ -59,13 +59,13 @@ export function HeroSection() {
                 size="lg"
                 className="border-foreground text-foreground hover:bg-foreground hover:text-background font-medium px-8 h-14 text-base transition-all duration-300 hover:scale-105 active:scale-95 bg-transparent"
               >
-                Log In
+                Learn More
               </Button>
               <Button
                 size="lg"
                 className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 h-14 text-base transition-all duration-300 hover:scale-105 active:scale-95 group relative overflow-hidden"
               >
-                <span className="relative z-10">Book Now</span>
+                <span className="relative z-10">Get a Quote</span>
                 <div className="absolute inset-0 bg-foreground/20 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500" />
               </Button>
             </div>
@@ -84,7 +84,7 @@ export function HeroSection() {
                   <img
                     key={img}
                     src={img || "/placeholder.svg"}
-                    alt="Clean home"
+                    alt="Professional cleaning team at work in residential home"
                     className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${
                       index === currentImage ? "opacity-100 scale-100" : "opacity-0 scale-105"
                     }`}
@@ -97,7 +97,7 @@ export function HeroSection() {
               <div className="relative h-[200px] rounded-2xl overflow-hidden group">
                 <img
                   src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80"
-                  alt="Vacuum cleaning"
+                  alt="Professional housekeeper using vacuum cleaner in office space"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -106,7 +106,7 @@ export function HeroSection() {
               <div className="relative h-[200px] rounded-2xl overflow-hidden group">
                 <img
                   src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=600&q=80"
-                  alt="Bathroom cleaning"
+                  alt="Detailed bathroom cleaning by professional cleaning team"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

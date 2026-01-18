@@ -8,9 +8,9 @@ import { ServicesList } from "@/components/services/services-list"
 import { ServicesCTA } from "@/components/services/services-cta"
 
 export const metadata: Metadata = {
-  title: "Services | Vella Clean",
+  title: "Services | Prestige Cleaning By Caro",
   description:
-    "Explore our cleaning services - Basic Clean, Deep Clean, Moving Clean, and Construction Clean. Professional housekeeping tailored to your needs.",
+    "Explore our cleaning services - Residential, Commercial, and Move-In/Move-Out Cleaning. Professional housekeeping tailored to your needs.",
 }
 
 export default function ServicesPage() {

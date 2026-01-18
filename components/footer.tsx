@@ -6,9 +6,9 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const navigation = {
   cleans: [
-    { name: "Basic Clean", href: "/services#basic" },
-    { name: "Deep Clean", href: "/services#deep" },
-    { name: "Moving Clean", href: "/services#moving" },
+    { name: "Residential Cleaning", href: "/services#residential" },
+    { name: "Commercial Cleaning", href: "/services#commercial" },
+    { name: "Move-In/Move-Out", href: "/services#moving" },
     { name: "Gift Cards", href: "#" },
     { name: "Cancellation Policy", href: "#" },
   ],
@@ -43,14 +43,14 @@ export function Footer() {
           >
             <Link href="/" className="flex items-center gap-2 mb-6 group">
               <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <span className="text-primary-foreground font-serif text-lg font-semibold">V</span>
+                <span className="text-primary-foreground font-serif text-lg font-semibold">P</span>
               </div>
               <span className="font-serif text-2xl font-semibold text-background tracking-tight">
-                Vella
+                Prestige Cleaning
               </span>
             </Link>
             <p className="text-background/70 text-sm leading-relaxed mb-6">
-              Custom housekeeping on demand. That&apos;s the Vella way.
+              Custom housekeeping on demand. That&apos;s the Prestige Cleaning way.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((social, index) => (
@@ -183,7 +183,7 @@ export function Footer() {
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
-          <p className="text-sm text-background/50">© Vella {new Date().getFullYear()} All rights reserved.</p>
+          <p className="text-sm text-background/50">© Prestige Cleaning By Caro {new Date().getFullYear()} All rights reserved.</p>
           <Link href="#" className="text-sm text-background/50 hover:text-background transition-colors duration-300">
             Privacy Policy
           </Link>

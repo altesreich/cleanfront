@@ -19,15 +19,15 @@ export function ContactCTA() {
             Ready for the clean of your dreams?
           </h2>
           <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-            Take our Clean Quiz to find out exactly what your home needs. We'll even throw in
-            20% off your first cleaning.
+            Get a personalized quote to find out exactly what your space needs. We'll even throw in
+            20% off your first booking.
           </p>
           <Button
             size="lg"
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-medium px-8 h-14 text-base transition-all duration-300 hover:scale-105 active:scale-95 group"
           >
             <Sparkles className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
-            Take the Quiz & Get 20% Off
+            Get a Quote & 20% Off
           </Button>
         </div>
       </div>

@@ -28,7 +28,7 @@ export function FinalCTA() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-10 h-16 text-lg transition-all duration-300 hover:scale-105 active:scale-95 group"
           >
-            Book a Clean Now
+            Book Your Cleaning
             <ArrowRight className="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
           </Button>
         </div>

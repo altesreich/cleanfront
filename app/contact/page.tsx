@@ -8,9 +8,9 @@ import { ContactInfo } from "@/components/contact/contact-info"
 import { ContactCTA } from "@/components/contact/contact-cta"
 
 export const metadata: Metadata = {
-  title: "Contact Us | Vella Clean",
+  title: "Contact Us | Prestige Cleaning By Caro",
   description:
-    "Get in touch with Vella Clean for professional cleaning services. Contact us today for a spotless home.",
+    "Get in touch with Prestige Cleaning By Caro for professional cleaning services. Contact us today for a spotless home.",
 }
 
 export default function ContactPage() {

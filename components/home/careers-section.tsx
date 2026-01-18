@@ -27,7 +27,7 @@ export function CareersSection() {
               Making Housekeeping a <span className="italic text-primary">Profession</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Vella provides a work environment that fosters personal & professional growth. By
+              Prestige Cleaning By Caro provides a work environment that fosters personal & professional growth. By
               empowering our employees with fulfilling careers and opportunities for progression, we
               ensure unrivaled dedication and quality work on every job.
             </p>

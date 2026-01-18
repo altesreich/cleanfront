@@ -43,12 +43,12 @@ export function Header() {
           >
             <div className="relative w-12 h-12 rounded-full bg-primary flex items-center justify-center overflow-hidden">
               <span className="text-primary-foreground font-serif text-2xl font-bold relative z-10">
-                V
+                P
               </span>
               <div className="absolute inset-0 bg-primary-foreground/20 scale-0 group-hover:scale-100 transition-transform duration-500 rounded-full" />
             </div>
             <span className="font-serif text-2xl font-semibold text-foreground tracking-tight">
-              Vella
+              Prestige Cleaning
             </span>
           </Link>
 

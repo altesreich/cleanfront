@@ -11,7 +11,7 @@ export function AboutHero() {
       <div className="absolute inset-0">
         <img
           src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=2000&q=80"
-          alt="Modern spotless home"
+          alt="Elegant and spotless modern home interior"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/70 to-background" />
@@ -24,7 +24,7 @@ export function AboutHero() {
           }`}
         >
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight">
-            Vella is the modern solution for a{" "}
+            Prestige Cleaning By Caro is the modern solution for a{" "}
             <span className="italic text-primary">spotless</span> home.
           </h1>
         </div>

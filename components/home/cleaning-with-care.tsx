@@ -5,11 +5,10 @@ import { Button } from "@/components/ui/button"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const features = [
-  { icon: Leaf, label: "Environment Friendly" },
-  { icon: Heart, label: "Pet Friendly" },
-  { icon: ShieldCheck, label: "Non-Toxic" },
-  { icon: Sparkles, label: "All Natural" },
-  { icon: Heart, label: "Hypoallergenic" },
+  { icon: Sparkles, label: "Team of 2 expertly trained housekeepers" },
+  { icon: ShieldCheck, label: "No arrival windows. No waiting around." },
+  { icon: Heart, label: "Prioritizing the health of our customers and our staff." },
+  { icon: Leaf, label: "Housekeeping powered by state-of-the-art equipment." },
 ]
 
 export function CleaningWithCare() {
@@ -26,18 +25,18 @@ export function CleaningWithCare() {
             }`}
           >
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
-              Cleaning with <span className="italic">Care</span>
+              Why Choose <span className="italic">Prestige Cleaning By Caro</span>
             </h2>
             <p className="text-lg text-primary-foreground/80 leading-relaxed max-w-xl">
-              Care. For our customers, their loved ones, the experience we provide, and the
-              housekeepers that provide it. Care is what makes it all happen.
+              We deliver premium cleaning services with precision and care. Our professional team
+              ensures every detail is perfect, every time.
             </p>
             <Button
               variant="outline"
               size="lg"
               className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-medium px-8 h-14 text-base transition-all duration-300 hover:scale-105 active:scale-95 bg-transparent"
             >
-              What&apos;s In Our Caddy
+              Book Your Cleaning
             </Button>
           </div>
 

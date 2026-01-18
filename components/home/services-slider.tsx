@@ -7,26 +7,26 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const services = [
   {
-    id: "basic",
-    title: "Basic Clean",
+    id: "residential",
+    title: "Residential Cleaning",
     description:
-      "We'll clean the kitchen and bathrooms, dust, make the beds, tidy up, vacuum and mop.",
+      "Comprehensive home cleaning including kitchen, bathrooms, dusting, vacuuming, and mopping with hotel-level attention to detail.",
     image:
       "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
   },
   {
-    id: "deep",
-    title: "Deep Clean",
+    id: "commercial",
+    title: "Commercial Cleaning",
     description:
-      "This clean includes everything in the Basic Clean plus high dusting, baseboards, vacuuming under sofa cushions, scrubbing everything in bathroom and kitchen and more.",
+      "Professional office cleaning services with focus on workspaces, common areas, and maintaining a pristine business environment.",
     image:
       "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "moving",
-    title: "Moving Clean",
+    title: "Move-In/Move-Out Cleaning",
     description:
-      "This clean includes everything ceiling to floor, all appliances inside and out, inside closets, and all cabinets and drawers inside and out.",
+      "Thorough cleaning from ceiling to floor, including appliances, closets, cabinets, and all surfaces for seamless transitions.",
     image:
       "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
   },

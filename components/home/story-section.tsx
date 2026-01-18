@@ -18,12 +18,12 @@ export function StorySection() {
             }`}
           >
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-foreground leading-tight">
-              What makes a Vella clean <span className="italic text-primary">special?</span>
+              What makes a Prestige Cleaning By Caro clean <span className="italic text-primary">special?</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               With diligent attention to detail and a meticulous personal touch, you&apos;ve never
-              experienced a clean quite like Vella. Learn more about what makes the Vella way
-              different and the woman who inspired it all.
+              experienced a clean quite like ours. Learn more about what makes our premium service
+              different and the passion that drives it all.
             </p>
             <Link
               href="/about"
@@ -43,7 +43,7 @@ export function StorySection() {
             <div className="relative rounded-3xl overflow-hidden group">
               <img
                 src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80"
-                alt="Vella team at work"
+                alt="Professional cleaning team working meticulously in a home"
                 className="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 via-foreground/20 to-transparent" />
@@ -57,7 +57,7 @@ export function StorySection() {
                 <p className="font-serif text-lg font-semibold text-foreground">
                   &ldquo;Completely, thoroughly, and never cutting corners.&rdquo;
                 </p>
-                <p className="text-sm text-muted-foreground mt-2">The Vella Way</p>
+                <p className="text-sm text-muted-foreground mt-2">The Prestige Cleaning Way</p>
               </div>
             </div>
           </div>

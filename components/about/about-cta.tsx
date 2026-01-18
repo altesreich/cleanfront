@@ -19,8 +19,8 @@ export function AboutCTA() {
             Ready for the clean of your dreams?
           </h2>
           <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-            Take our Clean Quiz to find out exactly what your home needs. We&apos;ll even throw in
-            20% off.
+            Get a personalized quote to find out exactly what your space needs. We&apos;ll even throw in
+            20% off your first booking.
           </p>
           <Button
             size="lg"

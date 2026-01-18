@@ -19,8 +19,8 @@ export function ServicesCTA() {
             Not sure which service is right for you?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Take our Clean Quiz to find out exactly what your home needs. We&apos;ll create a
-            custom cleaning plan tailored to your space.
+            Get a personalized quote to find out exactly what your space needs. We&apos;ll create a
+            custom cleaning plan tailored to your requirements.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -28,7 +28,7 @@ export function ServicesCTA() {
               className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 h-14 text-base transition-all duration-300 hover:scale-105 active:scale-95 group"
             >
               <Sparkles className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
-              Take the Clean Quiz
+              Get a Quote
             </Button>
             <Button
               size="lg"

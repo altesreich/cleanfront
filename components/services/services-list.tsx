@@ -6,45 +6,46 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const services = [
   {
-    id: "basic",
-    title: "Basic Clean",
+    id: "residential",
+    title: "Residential Cleaning",
     description:
-      "Need just the basics to get your home clean and fresh? We'll dust, vacuum, mop, clean the kitchen and bathrooms, make the beds and tidy up.",
+      "Transform your home with our comprehensive residential cleaning service. We provide meticulous attention to every detail, ensuring your living space is spotless and welcoming.",
     features: [
-      "Kitchen and bathroom cleaning",
-      "Dusting all surfaces",
-      "Vacuuming and mopping",
-      "Bed making and tidying",
+      "Complete kitchen and bathroom deep clean",
+      "Thorough dusting of all surfaces",
+      "Professional vacuuming and mopping",
+      "Bed making and general tidying",
+      "Hotel-level attention to detail",
     ],
     image:
       "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
   },
   {
-    id: "deep",
-    title: "Deep Clean",
+    id: "commercial",
+    title: "Commercial Cleaning",
     description:
-      "This clean leaves your home sparkling from ceiling to floor. We bring ladders to start at the top of each room and work our way down, removing all the dust and dirt along the way.",
+      "Maintain a professional and hygienic workspace with our commercial cleaning services. Perfect for offices, retail spaces, and business environments that demand excellence.",
     features: [
-      "Everything in Basic Clean",
-      "High dusting and baseboards",
-      "Under furniture cleaning",
-      "Inside appliances",
-      "Window tracks and blinds",
+      "Office and workspace sanitization",
+      "Common area maintenance",
+      "Restroom deep cleaning",
+      "Floor care and polishing",
+      "Regular maintenance scheduling",
     ],
     image:
       "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "moving",
-    title: "Moving Clean",
+    title: "Move-In/Move-Out Cleaning",
     description:
-      "Make your move easier by having us do the cleaning before you move in or after you move out. We'll clean and polish all the appliances inside and out, clean inside all the cabinets and drawers, scrub the bathrooms and remove all the dust and dirt from ceiling to floor.",
+      "Ensure a smooth transition with our specialized move-in/move-out cleaning service. We prepare spaces for new occupants or leave them pristine for final inspections.",
     features: [
-      "Ceiling to floor cleaning",
-      "All appliances inside and out",
-      "Inside cabinets and drawers",
-      "Inside closets",
-      "Wall spot cleaning",
+      "Complete ceiling to floor cleaning",
+      "Appliance deep cleaning inside and out",
+      "Cabinet and drawer detailing",
+      "Closet and storage area cleaning",
+      "Wall and baseboard scrubbing",
     ],
     image:
       "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",

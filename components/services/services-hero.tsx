@@ -21,8 +21,8 @@ export function ServicesHero() {
             Our Services
           </h1>
           <p className="mt-6 text-lg text-primary-foreground/80 leading-relaxed max-w-2xl">
-            Whether you need just the basics or everything ceiling to floor, a Vella team has got
-            you covered.
+            Whether you need residential cleaning, office maintenance, or move-in/move-out services, our team delivers
+            hotel-level detail every time.
           </p>
         </div>
       </div>
