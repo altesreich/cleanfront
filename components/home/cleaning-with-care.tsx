@@ -24,8 +24,8 @@ export function CleaningWithCare() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
           >
-            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
-              Why Choose <span className="italic">Prestige Cleaning By Caro</span>
+            <h2 className="font-sans text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight uppercase">
+              Why Choose Prestige Cleaning <span className="italic">By <span className="not-italic">C</span>aro</span>
             </h2>
             <p className="text-lg text-primary-foreground/80 leading-relaxed max-w-xl">
               We deliver premium cleaning services with precision and care. Our professional team

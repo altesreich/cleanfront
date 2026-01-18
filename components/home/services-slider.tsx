@@ -53,7 +53,7 @@ export function ServicesSlider() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-foreground">
+          <h2 className="font-sans text-3xl sm:text-4xl lg:text-5xl font-semibold text-foreground uppercase">
             Our <span className="italic text-primary">Services</span>
           </h2>
 
@@ -103,7 +103,7 @@ export function ServicesSlider() {
 
                   {/* Content */}
                   <div className="p-6">
-                    <h3 className="font-serif text-2xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors duration-300">
+                    <h3 className="font-sans text-2xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors duration-300 uppercase">
                       {service.title}
                     </h3>
                     <p className="text-muted-foreground leading-relaxed line-clamp-3">

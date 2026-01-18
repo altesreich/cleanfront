@@ -45,8 +45,8 @@ export function Footer() {
               <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 <span className="text-primary-foreground font-serif text-lg font-semibold">P</span>
               </div>
-              <span className="font-serif text-2xl font-semibold text-background tracking-tight">
-                Prestige Cleaning
+              <span className="font-sans text-2xl font-semibold text-background tracking-tight uppercase">
+                PRESTIGE CLEANING BY <span className="italic">C</span>ARO
               </span>
             </Link>
             <p className="text-background/70 text-sm leading-relaxed mb-6">
@@ -183,7 +183,7 @@ export function Footer() {
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
-          <p className="text-sm text-background/50">© Prestige Cleaning By Caro {new Date().getFullYear()} All rights reserved.</p>
+          <p className="text-sm text-background/50">© Prestige Cleaning By <span className="italic">C</span>aro {new Date().getFullYear()} All rights reserved.</p>
           <Link href="#" className="text-sm text-background/50 hover:text-background transition-colors duration-300">
             Privacy Policy
           </Link>

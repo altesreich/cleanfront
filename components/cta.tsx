@@ -21,11 +21,11 @@ export function CTA() {
               isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
             }`}
           >
-            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-primary-foreground tracking-tight text-balance">
+            <h2 className="font-sans text-3xl sm:text-4xl lg:text-5xl font-semibold text-primary-foreground tracking-tight text-balance uppercase">
               Ready for the clean of your dreams?
             </h2>
-            <p className="mt-6 text-lg text-primary-foreground/80 leading-relaxed max-w-xl">
-              Get started today with a free, no-obligation quote. Experience the Pristine difference and discover why thousands of clients trust us with their spaces.
+            <p className="mt-6 text-base text-primary-foreground/80 leading-relaxed max-w-xl">
+              Get started today with a free, no-obligation quote. Experience the Prestige Cleaning By Caro difference and discover why thousands of clients trust us with their spaces.
             </p>
 
             <div 
@@ -83,8 +83,8 @@ export function CTA() {
                   </div>
                   <div>
                     <p className="text-sm text-primary-foreground/70">Email us at</p>
-                    <a href="mailto:hello@pristineclean.com" className="text-xl font-semibold text-primary-foreground hover:underline">
-                      hello@pristineclean.com
+                    <a href="mailto:hello@prestigecleaningbycaro.com" className="text-xl font-semibold text-primary-foreground hover:underline">
+                      hello@prestigecleaningbycaro.com
                     </a>
                   </div>
                 </div>

@@ -94,7 +94,7 @@ export function WhyChooseUs() {
                 Cleaning with care and commitment
               </h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                At Pristine Clean, we believe that exceptional cleaning goes beyond just removing dirt. It&apos;s about creating healthy, harmonious spaces where life can flourish.
+                At Prestige Cleaning By Caro, we believe that exceptional cleaning goes beyond just removing dirt. It&apos;s about creating healthy, harmonious spaces where life can flourish.
               </p>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
                 Our commitment to quality, sustainability, and customer satisfaction has made us the trusted choice for over 2,500 homes and businesses.

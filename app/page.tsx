@@ -2,6 +2,7 @@ import { Metadata } from "next"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
+import { InstagramButton } from "@/components/instagram-button"
 import { HeroSection } from "@/components/home/hero-section"
 import { ServicesSlider } from "@/components/home/services-slider"
 import { CleanQuiz } from "@/components/home/clean-quiz"
@@ -33,6 +34,7 @@ export default function Home() {
       <FinalCTA />
       <Footer />
       <WhatsAppButton />
+      <InstagramButton />
     </main>
   )
 }

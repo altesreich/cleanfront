@@ -35,36 +35,6 @@ const services = [
     image:
       "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
   },
-  {
-    id: "moving",
-    title: "Move-In/Move-Out Cleaning",
-    description:
-      "Ensure a smooth transition with our specialized move-in/move-out cleaning service. We prepare spaces for new occupants or leave them pristine for final inspections.",
-    features: [
-      "Complete ceiling to floor cleaning",
-      "Appliance deep cleaning inside and out",
-      "Cabinet and drawer detailing",
-      "Closet and storage area cleaning",
-      "Wall and baseboard scrubbing",
-    ],
-    image:
-      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
-  },
-  {
-    id: "construction",
-    title: "Construction Clean",
-    description:
-      "Renovations and remodeling require professional cleanup. Our expertly trained teams will bring top quality vacuums and hand wipe your surfaces with microfiber cloth to ensure every speck of dust is picked up and removed after construction is complete.",
-    features: [
-      "Post-construction dust removal",
-      "Surface hand wiping",
-      "Professional-grade vacuuming",
-      "Microfiber cloth detailing",
-      "Window and fixture cleaning",
-    ],
-    image:
-      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=80",
-  },
 ]
 
 function ServiceCard({

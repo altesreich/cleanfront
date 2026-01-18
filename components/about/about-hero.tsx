@@ -23,7 +23,7 @@ export function AboutHero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight">
+          <h1 className="font-sans text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold text-foreground leading-[1.1] tracking-tight uppercase">
             Prestige Cleaning By Caro is the modern solution for a{" "}
             <span className="italic text-primary">spotless</span> home.
           </h1>

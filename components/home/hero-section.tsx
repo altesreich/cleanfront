@@ -34,14 +34,14 @@ export function HeroSection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
           >
-            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight">
+            <h1 className="font-sans text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold text-foreground leading-[1.1] tracking-tight uppercase">
               <span className="italic text-primary">Residential & commercial</span> cleaning with hotel-level detail.
               <br />
-              That&apos;s the <span className="italic text-primary">Prestige Cleaning By Caro</span> way.
+              That&apos;s the <span className="italic text-primary">Prestige Cleaning <span className="not-italic">By <span className="italic">C</span>aro</span></span> way.
             </h1>
 
             <p
-              className={`text-lg text-muted-foreground leading-relaxed max-w-xl transition-all duration-1000 delay-200 ${
+              className={`text-base text-muted-foreground leading-relaxed max-w-xl transition-all duration-1000 delay-200 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               }`}
             >

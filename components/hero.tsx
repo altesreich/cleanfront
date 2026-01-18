@@ -59,13 +59,13 @@ export function Hero() {
               <span className="text-sm font-medium text-primary">Premium Cleaning Services</span>
             </div>
             
-            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight text-balance">
+            <h1 className="font-sans text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold text-foreground leading-[1.1] tracking-tight text-balance uppercase">
               Immaculate spaces,{" "}
               <span className="text-primary italic">effortlessly</span>{" "}
               delivered
             </h1>
             
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
+            <p className="text-base text-muted-foreground leading-relaxed max-w-xl">
               Experience exceptional cleaning that leaves more than just a fresh scent — it leaves a lasting impression. Residential and commercial services tailored to your needs.
             </p>
 

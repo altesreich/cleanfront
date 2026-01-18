@@ -1,14 +1,14 @@
 import React from "react"
 import type { Metadata } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Montserrat, Lato } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
-const _playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
+const montserrat = Montserrat({ subsets: ["latin"], weight: ['400', '500', '600', '700'], variable: '--font-sans' });
+const lato = Lato({ subsets: ["latin"], weight: ['300', '400', '700'], variable: '--font-body' });
 
 export const metadata: Metadata = {
-  title: 'Pristine Clean | Premium Cleaning Services',
+  title: 'Prestige Cleaning By Caro | Premium Cleaning Services',
   description: 'Experience exceptional cleaning services that leave more than just a fresh scent – they leave a lasting impression. Residential and commercial cleaning.',
   generator: 'v0.app',
   icons: {

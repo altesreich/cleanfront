@@ -23,11 +23,11 @@ export function ContactHero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-foreground leading-[1.1] tracking-tight">
+          <h1 className="font-sans text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold text-foreground leading-[1.1] tracking-tight uppercase">
             Get in touch with{" "}
-            <span className="italic text-primary">Prestige Cleaning By Caro</span>.
+            Prestige Cleaning <span className="italic text-primary">By <span className="not-italic">C</span>aro</span>.
           </h1>
-          <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-6 text-base text-muted-foreground max-w-2xl mx-auto">
             Ready to experience the clean of your dreams? Contact us today and let's make your home spotless.
           </p>
         </div>

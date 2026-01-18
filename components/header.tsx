@@ -47,8 +47,8 @@ export function Header() {
               </span>
               <div className="absolute inset-0 bg-primary-foreground/20 scale-0 group-hover:scale-100 transition-transform duration-500 rounded-full" />
             </div>
-            <span className="font-serif text-2xl font-semibold text-foreground tracking-tight">
-              Prestige Cleaning
+            <span className="font-sans text-2xl font-semibold text-foreground tracking-tight uppercase">
+              PRESTIGE CLEANING BY <span className="italic">C</span>ARO
             </span>
           </Link>
 

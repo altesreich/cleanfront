@@ -38,17 +38,7 @@ export function WhatsAppButton() {
             : "opacity-0 translate-y-2 pointer-events-none"
         }`}
       >
-        <div className="relative bg-foreground text-background px-4 py-3 rounded-2xl shadow-lg max-w-[200px]">
-          <button
-            onClick={() => setShowTooltip(false)}
-            className="absolute -top-2 -right-2 w-6 h-6 bg-foreground text-background rounded-full flex items-center justify-center hover:bg-foreground/80 transition-colors"
-            aria-label="Close tooltip"
-          >
-            <X className="w-3 h-3" />
-          </button>
-          <p className="text-sm font-medium">Need help? Chat with us!</p>
-          <div className="absolute bottom-0 right-6 translate-y-1/2 rotate-45 w-3 h-3 bg-foreground" />
-        </div>
+       
       </div>
 
       {/* Expanded Card on Hover */}
@@ -63,7 +53,7 @@ export function WhatsAppButton() {
               <MessageCircle className="w-5 h-5 text-white" />
             </div>
             <div>
-              <p className="font-semibold text-foreground">Prestige Cleaning By Caro</p>
+              <p className="font-semibold text-foreground">Prestige Cleaning <span className="italic">By <span className="not-italic">C</span>aro</span></p>
               <p className="text-xs text-muted-foreground">Usually replies within 1 hour</p>
             </div>
           </div>

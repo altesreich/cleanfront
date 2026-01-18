@@ -38,7 +38,7 @@ export function GiftSection() {
                   </div>
                   <div>
                     <p className="text-sm uppercase tracking-wider opacity-80 mb-2">Gift Card</p>
-                    <p className="font-serif text-3xl lg:text-4xl font-semibold">Prestige Cleaning By Caro</p>
+                    <p className="font-sans text-3xl lg:text-4xl font-semibold uppercase">Prestige Cleaning <span className="italic">By <span className="not-italic">C</span>aro</span></p>
                   </div>
                   <div className="pt-8 border-t border-primary-foreground/20">
                     <p className="text-sm opacity-80">For someone special</p>
