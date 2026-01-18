@@ -5,9 +5,8 @@ import { MapPin, ArrowRight } from "lucide-react"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const jobs = [
-  { title: "Housekeeper", location: "Austin, TX" },
-  { title: "Housekeeper", location: "Dallas, TX" },
-  { title: "Ama de Llaves", location: "Dallas, TX" },
+   { title: "Housekeeper", location: "Dallas, TX" },
+  { title: "Housekeeper", location: "Boston, Massachusetts" },
 ]
 
 export function CareersSection() {
@@ -66,13 +65,7 @@ export function CareersSection() {
             ))}
 
             {/* See All Jobs */}
-            <Link
-              href="#"
-              className="inline-flex items-center gap-2 text-primary font-medium hover:gap-4 transition-all duration-300 mt-4 group"
-            >
-              See All Open Positions
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </Link>
+    
           </div>
         </div>
       </div>

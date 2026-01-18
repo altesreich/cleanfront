@@ -18,12 +18,10 @@ export function CleanQuiz() {
             }`}
           >
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-foreground leading-tight">
-              Discover Your Perfect Clean.
+              Perfect Clean.
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Every space is unique &ndash; that&apos;s why we customize our cleaning services to
-              match your specific needs. Get a personalized quote to find out exactly what
-              your space deserves.
+             Our expert team uses proven methods and attention to detail to keep every environment spotless and well maintained.
             </p>
             <p className="text-xl font-semibold text-foreground">
               We'll even throw in 20% off your first booking.
@@ -51,10 +49,26 @@ export function CleanQuiz() {
               <div className="relative space-y-6">
                 {/* Quiz preview cards */}
                 {[
-                  { q: "How many bedrooms?", options: ["1-2", "3-4", "5+"] },
-                  { q: "How often do you clean?", options: ["Weekly", "Bi-weekly", "Monthly"] },
-                  { q: "Do you have pets?", options: ["Yes", "No"] },
-                ].map((item, index) => (
+  {
+    q: "Home size",
+    description:
+      "We professionally clean homes of all sizes, from cozy 1–2 bedroom apartments to spacious 5+ bedroom houses.",
+    options: []
+  },
+  {
+    q: "Cleaning frequency",
+    description:
+      "Choose the rhythm that fits your lifestyle with flexible cleaning schedules, including weekly, bi-weekly, or monthly visits.",
+    options: []
+  },
+  {
+    q: "Pet-friendly service",
+    description:
+      "Our trained cleaning specialists are pet-friendly and know how to keep your home spotless while caring for spaces shared with furry family members.",
+    options: []
+  }
+]
+.map((item, index) => (
                   <div
                     key={item.q}
                     className={`bg-card rounded-2xl p-4 shadow-sm border border-border transition-all duration-500 hover:shadow-md hover:-translate-y-1 ${

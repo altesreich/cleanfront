@@ -1,11 +1,13 @@
 import React from "react"
 import type { Metadata } from 'next'
-import { Montserrat, Lato } from 'next/font/google'
+import { Montserrat, Lato, Playfair_Display, Cinzel } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: ['400', '500', '600', '700'], variable: '--font-sans' });
 const lato = Lato({ subsets: ["latin"], weight: ['300', '400', '700'], variable: '--font-body' });
+const playfair = Playfair_Display({ subsets: ["latin"], weight: ['400', '500', '600', '700'], variable: '--font-serif' });
+const cinzel = Cinzel({ subsets: ["latin"], weight: ['400', '500', '600', '700'], variable: '--font-display' });
 
 export const metadata: Metadata = {
   title: 'Prestige Cleaning By Caro | Premium Cleaning Services',

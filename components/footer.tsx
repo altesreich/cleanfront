@@ -42,11 +42,13 @@ export function Footer() {
             }`}
           >
             <Link href="/" className="flex items-center gap-2 mb-6 group">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <span className="text-primary-foreground font-serif text-lg font-semibold">P</span>
-              </div>
-              <span className="font-sans text-2xl font-semibold text-background tracking-tight uppercase">
-                PRESTIGE CLEANING BY <span className="italic">C</span>ARO
+              <img
+                src="/logo.png"
+                alt="Prestige Cleaning By Caro"
+                className="h-12 w-auto"
+              />
+              <span className="font-serif text-lg font-semibold text-background tracking-wide">
+                Luxury Cleaning Excellence
               </span>
             </Link>
             <p className="text-background/70 text-sm leading-relaxed mb-6">

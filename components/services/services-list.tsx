@@ -6,8 +6,8 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const services = [
   {
-    id: "residential",
-    title: "Residential Cleaning",
+    id: "Basic Cleaning",
+    title: "Basic Cleaning",
     description:
       "Transform your home with our comprehensive residential cleaning service. We provide meticulous attention to every detail, ensuring your living space is spotless and welcoming.",
     features: [
@@ -21,8 +21,8 @@ const services = [
       "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
   },
   {
-    id: "commercial",
-    title: "Commercial Cleaning",
+    id: "Deep Cleaning",
+    title: "Deep Cleaning",
     description:
       "Maintain a professional and hygienic workspace with our commercial cleaning services. Perfect for offices, retail spaces, and business environments that demand excellence.",
     features: [
