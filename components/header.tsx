@@ -1,0 +1,152 @@
+"use client"
+
+import { useState, useEffect } from "react"
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import { Button } from "@/components/ui/button"
+import { Menu, X } from "lucide-react"
+
+const navLinks = [
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Services", href: "/services" },
+  { name: "Contact", href: "/contact" },
+]
+
+export function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+  const pathname = usePathname()
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20)
+    }
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
+
+  return (
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        isScrolled
+          ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border"
+          : "bg-transparent"
+      }`}
+    >
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20">
+          {/* Logo */}
+          <Link
+            href="/"
+            className="group flex items-center gap-2 transition-transform duration-300 hover:scale-105"
+          >
+            <div className="relative w-12 h-12 rounded-full bg-primary flex items-center justify-center overflow-hidden">
+              <span className="text-primary-foreground font-serif text-2xl font-bold relative z-10">
+                V
+              </span>
+              <div className="absolute inset-0 bg-primary-foreground/20 scale-0 group-hover:scale-100 transition-transform duration-500 rounded-full" />
+            </div>
+            <span className="font-serif text-2xl font-semibold text-foreground tracking-tight">
+              Vella
+            </span>
+          </Link>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center gap-1">
+            {navLinks.map((link) => (
+              <Link
+                key={link.name}
+                href={link.href}
+                className={`relative px-4 py-2 text-sm font-medium transition-colors duration-300 group ${
+                  pathname === link.href
+                    ? "text-primary"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                {link.name}
+                <span
+                  className={`absolute bottom-0 left-1/2 -translate-x-1/2 h-0.5 bg-primary transition-all duration-300 ${
+                    pathname === link.href ? "w-6" : "w-0 group-hover:w-6"
+                  }`}
+                />
+              </Link>
+            ))}
+          </nav>
+
+          {/* Desktop CTA */}
+          <div className="hidden md:flex items-center gap-3">
+            <Button
+              variant="ghost"
+              className="text-foreground hover:text-primary hover:bg-primary/5 font-medium transition-all duration-300"
+            >
+              Log In
+            </Button>
+            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-6 relative overflow-hidden group">
+              <span className="relative z-10">Book Now</span>
+              <div className="absolute inset-0 bg-foreground/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+            </Button>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden p-2 text-foreground rounded-full hover:bg-secondary transition-colors duration-300"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <div className="relative w-6 h-6">
+              <Menu
+                className={`w-6 h-6 absolute transition-all duration-300 ${
+                  isMenuOpen ? "opacity-0 rotate-90" : "opacity-100 rotate-0"
+                }`}
+              />
+              <X
+                className={`w-6 h-6 absolute transition-all duration-300 ${
+                  isMenuOpen ? "opacity-100 rotate-0" : "opacity-0 -rotate-90"
+                }`}
+              />
+            </div>
+          </button>
+        </div>
+
+        {/* Mobile Menu */}
+        <div
+          className={`md:hidden overflow-hidden transition-all duration-500 ease-out ${
+            isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <nav className="py-6 border-t border-border">
+            <div className="flex flex-col gap-2">
+              {navLinks.map((link, index) => (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className={`px-4 py-3 text-base font-medium rounded-xl transition-all duration-300 ${
+                    pathname === link.href
+                      ? "text-primary bg-primary/5"
+                      : "text-muted-foreground hover:text-foreground hover:bg-secondary"
+                  }`}
+                  onClick={() => setIsMenuOpen(false)}
+                  style={{ transitionDelay: `${index * 50}ms` }}
+                >
+                  {link.name}
+                </Link>
+              ))}
+              <div className="pt-4 mt-4 border-t border-border flex flex-col gap-3">
+                <Button
+                  variant="ghost"
+                  className="w-full justify-center text-foreground hover:text-primary"
+                >
+                  Log In
+                </Button>
+                <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+                  Book Now
+                </Button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+  )
+}
