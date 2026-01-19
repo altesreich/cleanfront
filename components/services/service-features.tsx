@@ -6,8 +6,8 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 const features = [
   {
     icon: Users,
-    title: "Dynamic Duo",
-    description: "Team of 2 expertly trained housekeepers.",
+    title: "Dynamic Team",
+    description: "Highly specialized personnel dedicated to providing exceptional care and comfort in your home.",
   },
   {
     icon: Clock,
