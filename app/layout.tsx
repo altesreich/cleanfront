@@ -2,6 +2,7 @@ import React from "react"
 import type { Metadata } from 'next'
 import { Montserrat, Lato, Playfair_Display, Cinzel } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import GlobalWhatsAppRedirect from '@/components/whatsapp/global-redirect'
 import './globals.css'
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: ['400', '500', '600', '700'], variable: '--font-sans' });
@@ -40,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans antialiased`}>
+        <GlobalWhatsAppRedirect />
         {children}
         <Analytics />
       </body>
