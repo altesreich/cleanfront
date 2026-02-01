@@ -9,7 +9,7 @@ const timelineItems = [
     description:
       "Caro recognized the need for premium cleaning services that combine meticulous attention to detail with professional efficiency. Her passion for perfection drives every cleaning.",
     image:
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
+      "/images/web/web-10.jpg",
     imageAlt: "Professional cleaner with vision for excellence",
     layout: "left",
   },
@@ -19,7 +19,7 @@ const timelineItems = [
     description:
       "Prestige Cleaning By Caro was established with a commitment to hotel-level detail in every residential and commercial space. We assembled a team of expertly trained professionals.",
     image:
-      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80",
+      "/images/web/web-11.jpg",
     imageAlt: "Professional cleaning supplies and equipment",
     layout: "right",
   },
@@ -29,7 +29,7 @@ const timelineItems = [
     description:
       "Today, Prestige Cleaning By Caro delivers unparalleled cleaning services with state-of-the-art equipment and a dedication to health, safety, and customer satisfaction. No arrival windows, just premium results.",
     image:
-      "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80",
+      "/images/web/web-12.jpg",
     imageAlt: "Professional cleaning team at work",
     layout: "left",
   },

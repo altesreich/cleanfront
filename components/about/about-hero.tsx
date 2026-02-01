@@ -10,7 +10,7 @@ export function AboutHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=2000&q=80"
+          src="/images/web/web-5.jpg"
           alt="Elegant and spotless modern home interior"
           className="w-full h-full object-cover"
         />

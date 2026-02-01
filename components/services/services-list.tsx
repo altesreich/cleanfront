@@ -18,7 +18,7 @@ const services = [
       "Hotel-level attention to detail",
     ],
     image:
-      "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+      "/images/web/web-6.jpg",
   },
   {
     id: "Deep Cleaning",
@@ -33,7 +33,7 @@ const services = [
       "Regular maintenance scheduling",
     ],
     image:
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+      "/images/web/web-7.jpg",
   },
 ]
 

@@ -11,24 +11,21 @@ const services = [
     title: "Residential Cleaning",
     description:
       "Comprehensive home cleaning including kitchen, bathrooms, dusting, vacuuming, and mopping with hotel-level attention to detail.",
-    image:
-      "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+    image: "/images/web/web-6.jpg",
   },
   {
     id: "commercial",
     title: "Commercial Cleaning",
     description:
       "Professional office cleaning services with focus on workspaces, common areas, and maintaining a pristine business environment.",
-    image:
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    image: "/images/web/web-7.jpg",
   },
   {
     id: "moving",
     title: "Move-In/Move-Out Cleaning",
     description:
       "Thorough cleaning from ceiling to floor, including appliances, closets, cabinets, and all surfaces for seamless transitions.",
-    image:
-      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+    image: "/images/web/web-8.jpg",
   },
 ]
 

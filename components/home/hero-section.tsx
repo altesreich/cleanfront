@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const heroImages = [
-  "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=800&q=80",
+  "/images/web/web-1.jpg",
+  "/images/web/web-2.jpg",
+  "/images/web/web-3.jpg",
 ]
 
 export function HeroSection() {
@@ -123,7 +123,7 @@ export function HeroSection() {
               {/* Bottom images */}
               <div className="relative h-[220px] rounded-2xl overflow-hidden group shadow-xl shadow-primary/10 hover:shadow-2xl hover:shadow-primary/20 transition-shadow duration-500">
                 <img
-                  src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80"
+                  src="/images/web/web-4.jpg"
                   alt="Professional housekeeper using vacuum cleaner in office space"
                   className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                 />
@@ -132,7 +132,7 @@ export function HeroSection() {
 
               <div className="relative h-[220px] rounded-2xl overflow-hidden group shadow-xl shadow-primary/10 hover:shadow-2xl hover:shadow-primary/20 transition-shadow duration-500">
                 <img
-                  src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=600&q=80"
+                  src="/images/web/web-5.jpg"
                   alt="Detailed bathroom cleaning by professional cleaning team"
                   className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                 />

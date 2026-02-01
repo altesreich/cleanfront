@@ -10,7 +10,7 @@ export function ServicesHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=2000&q=80"
+          src="/images/web/web-13.jpg"
           alt="Professional cleaning services"
           className="w-full h-full object-cover"
         />

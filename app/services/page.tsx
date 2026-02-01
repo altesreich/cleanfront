@@ -6,6 +6,7 @@ import { InstagramButton } from "@/components/instagram-button"
 import { ServicesHero } from "@/components/services/services-hero"
 import { ServiceFeatures } from "@/components/services/service-features"
 import { ServicesList } from "@/components/services/services-list"
+import { ProductsList } from "@/components/services/products-list"
 import { ServicesCTA } from "@/components/services/services-cta"
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function ServicesPage() {
       <ServicesHero />
       <ServiceFeatures />
       <ServicesList />
+      <ProductsList />
       <ServicesCTA />
       <Footer />
       <WhatsAppButton />

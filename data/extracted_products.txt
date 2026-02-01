@@ -1,0 +1,88 @@
+--- PAGE 1 ---
+ 
+JASON ANDRES BERNAL SALAZAR 
+London – E7 0HN/ Almeria - 04620 |  644205853  |  Yavzlh@gmail.com  |  Linkedin
+ 
+PROFESSIONAL PROFILE 
+IT Engineer with a specialization in Project Management and over 5 years of international 
+experience in the UK, Spain, and LATAM. Expert in business analysis, requirements gathering 
+and management, process optimization, and coordination between technical teams and business 
+units. 
+Extensive experience in agile methodologies (Scrum, Kanban, Waterfall), project planning and 
+tracking, and stakeholder management. Bilingual in Spanish –English (C1) and accustomed to 
+multicultural and international environments. 
+ 
+KEY SKILLS 
+• Project Management: Scrum, Kanban, Waterfall; planning, tracking, and team 
+coordination. 
+• Analysis & Design: Requirements gathering, UX/UI, prototyping in Figma, usability 
+testing. 
+• Tools & Technologies: Jira, Trello, Asana, Miro, Power BI, Salesforce, SAP; APIs, API-
+first development, Postman, SQL, PostgreSQL, MongoDB, AS400, SQL-DB2; Frontend 
+(Angular / React), Backend (Django / Laravel / Strapi), Python, GIT. 
+• Sales & Business: Corporate Sales Support, MEDDIC, Challenger methodologies. 
+• Soft Skills: Effective communication, interdisciplinary collaboration, multicultural 
+coordination, analytical thinking. 
+ 
+PROFESSIONAL EXPERIENCE 
+Product Designer / Functional Analyst 
+JCARRION | Almería, Spain | Jun 2025 – Present 
+• Conceptualization and design of digital solutions for logistics projects. 
+• Creation of interactive prototypes in Figma and user validation. 
+• Coordination with business and technology teams in Spain and France. 
+• Management of PostgreSQL, SQL-DB2, and MongoDB databases; functional 
+requirements gathering for international clients. 
+• Process optimization through user research and co-creation. 
+• Management of API-Rest devices and GPS devices. 
+• Coordination with business and technology teams across Spain, France, the UK, 
+Africa, and Germany, ensuring project alignment and delivery. 
+• Process optimization through user research and co-creation workshops with multicultural 
+stakeholders. 
+ 
+
+
+--- PAGE 2 ---
+Manager / IT & Operations Lead (B2B Retail) 
+Bond Street 0073- UK /London | May 2023 – May 2025 
+• Ensuring sales targets, KPIs, and operational excellence. 
+• Optimized store processes and reporting using SQL and internal dashboards to improve 
+efficiency. 
+• Provided training and technical support for POS systems and digital tools, enhancing the 
+customer experience. 
+• Coordinated promotions and corporate campaigns, driving customer retention and 
+satisfaction. 
+• Fostered a collaborative work environment, reducing staff turnover and improving team 
+performance. 
+• Managed purchasing and sales operations, including inventory planning and supplier 
+coordination to meet demand. 
+•  Delivered personalized service to international clients, particularly from Germany and 
+the UK, ensuring clear communication and high customer satisfaction. 
+Project & Resource Manager | UX Process Designer 
+G.I The Transporter | Colombia | Jul 2020 – Feb 2023 
+• Led innovation projects and CRM system design. 
+• Introduced user research practices to optimize processes. 
+• Designed digital experiences tailored to clients and internal teams. 
+• Managed SQL / PostgreSQL databases for reporting and analysis. 
+ 
+SELECTED PROJECTS 
+• JCARRION – Logistics Control and Shipment Tracking: Redesigned tracking flows 
+for UP/UT/SR from Africa to Europe, optimizing processes and ensuring full traceability. 
+• G.I The Transporter – User-Centric CRM and ERP: Integrated CRM with ERP, 
+enhancing user experience, reporting, and data analysis for strategic decisions. 
+• Ibagué City Council / CIMPP – IT & Digitalization: Managed Windows servers and 
+Oracle databases; automated processes and population indicators; optimized digital 
+experiences for citizens. 
+ 
+EDUCATION 
+• Master’s in Project Management – Universidad del Tolima (2019) 
+• IT Engineer – Corporación Unificada Nacional (2016) 
+ 
+CERTIFICATIONS 
+• Google  IT Support Professional Certificate – 2026 
+• Google Project Management Professional Certificate – 2025 
+• Google IT Automation with Python Professional Certificate – 2025 
+• Microsoft Azure Fundamentals – 2024 
+• Cisco Cybersecurity Analyst – 2025 
+• Cybersecurity Certification – OHSC – 2025 
+• Business Analysis and Process Management – Coursera – 2025 
+• MEDDIC Sales Framework – 2025 

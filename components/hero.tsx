@@ -7,19 +7,19 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const heroSlides = [
   {
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/web/web-1.jpg",
     alt: "Clean modern living room",
   },
   {
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/web/web-2.jpg",
     alt: "Sparkling clean bathroom",
   },
   {
-    image: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/web/web-3.jpg",
     alt: "Pristine kitchen",
   },
   {
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/web/web-4.jpg",
     alt: "Professional cleaning supplies",
   },
 ]

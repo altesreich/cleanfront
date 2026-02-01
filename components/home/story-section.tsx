@@ -42,7 +42,7 @@ export function StorySection() {
           >
             <div className="relative rounded-3xl overflow-hidden group">
               <img
-                src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80"
+                src="/images/web/web-9.jpg"
                 alt="Professional cleaning team working meticulously in a home"
                 className="w-full h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
               />
