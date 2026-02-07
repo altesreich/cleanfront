@@ -67,6 +67,7 @@ export function GiftSection() {
             </p>
             <Button
               size="lg"
+              data-whatsapp-message="Quisiera comprar una tarjeta de regalo."
               className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 h-14 text-base transition-all duration-300 hover:scale-105 active:scale-95 group"
             >
               <Gift className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />

@@ -24,7 +24,9 @@ export function ProductCard({ product }: { product: Product }) {
 
           <div className="flex items-center justify-between mt-4">
             <div className="text-sm font-semibold text-foreground">{product.price || ""}</div>
-            <Button size="sm">View details</Button>
+            <Button size="sm" data-whatsapp-message={`Quiero más información sobre ${product.title}`}>
+              View details
+            </Button>
           </div>
         </div>
       </div>

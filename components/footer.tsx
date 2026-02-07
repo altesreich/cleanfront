@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { Instagram, Facebook, Youtube, Linkedin } from "lucide-react"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
+import { getWhatsAppUrl } from "@/lib/whatsapp"
 
 const navigation = {
   cleans: [
@@ -13,7 +14,7 @@ const navigation = {
     { name: "Cancellation Policy", href: "#" },
   ],
   company: [
-    { name: "Our Products", href: "#" },
+    { name: "Our Products", href: "#", whatsapp: true },
     { name: "Jobs", href: "#" },
     { name: "Regions", href: "#" },
     { name: "FAQs", href: "#" },
@@ -114,12 +115,23 @@ export function Footer() {
                   }`}
                   style={{ transitionDelay: `${400 + index * 50}ms` }}
                 >
-                  <Link
-                    href={item.href}
-                    className="text-sm text-background/70 hover:text-background hover:pl-2 transition-all duration-300"
-                  >
-                    {item.name}
-                  </Link>
+                  {item.whatsapp ? (
+                    <a
+                      href={getWhatsAppUrl('Quiero información sobre sus productos')}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-background/70 hover:text-background hover:pl-2 transition-all duration-300"
+                    >
+                      {item.name}
+                    </a>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      className="text-sm text-background/70 hover:text-background hover:pl-2 transition-all duration-300"
+                    >
+                      {item.name}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -162,8 +174,8 @@ export function Footer() {
             <h3 className="font-semibold text-background mb-4">Contact</h3>
             <ul className="space-y-3 text-sm text-background/70">
               <li>
-                <a href="tel:+12143347082" className="hover:text-background transition-colors duration-300">
-                  214.334.7082
+                <a href="tel:+12146772559" className="hover:text-background transition-colors duration-300">
+                  214.677.2559
                 </a>
               </li>
               <li className="leading-relaxed">

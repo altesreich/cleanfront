@@ -106,6 +106,7 @@ function ServiceCard({
 
         <Button
           size="lg"
+          data-whatsapp-message={`Quiero reservar ${service.title}`}
           className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-8 h-14 text-base transition-all duration-300 hover:scale-105 active:scale-95 group"
         >
           Book {service.title}

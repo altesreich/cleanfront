@@ -7,20 +7,20 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const heroSlides = [
   {
-    image: "/images/web/web-1.jpg",
+    image: "/images/web/web-11.jpg",
     alt: "Clean modern living room",
   },
   {
-    image: "/images/web/web-2.jpg",
+    image: "/images/web/web-3.jpg",
     alt: "Sparkling clean bathroom",
   },
   {
-    image: "/images/web/web-3.jpg",
+    image: "/images/web/web-7.jpg",
     alt: "Pristine kitchen",
   },
   {
-    image: "/images/web/web-4.jpg",
-    alt: "Professional cleaning supplies",
+    image: "/images/web/web-6.jpg",
+  
   },
 ]
 

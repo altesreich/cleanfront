@@ -77,7 +77,7 @@ export function Header() {
             {/* Desktop CTA */}
             <div className="hidden md:flex items-center gap-3">
      
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-6 relative overflow-hidden group">
+              <Button data-whatsapp-message="Quiero reservar una limpieza." className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-6 relative overflow-hidden group">
                 <span className="relative z-10">Book Now</span>
                 <div className="absolute inset-0 bg-foreground/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
               </Button>
@@ -154,6 +154,7 @@ export function Header() {
                 ))}
                 <div className="pt-6 mt-6 border-t border-border">
                   <Button
+                    data-whatsapp-message="Quiero reservar una limpieza."
                     className="w-full bg-primary text-primary-foreground hover:bg-primary/90 py-4 text-lg"
                     onClick={() => setIsMenuOpen(false)}
                   >
