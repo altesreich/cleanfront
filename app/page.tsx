@@ -14,9 +14,10 @@ import { QuizCTA } from "@/components/home/quiz-cta"
 import { FinalCTA } from "@/components/home/final-cta"
 
 export const metadata: Metadata = {
-  title: "Prestige Cleaning By Caro | Residential & Commercial Cleaning",
+  title: "Prestige Cleaning By Caro | Professional House Cleaning Dallas TX",
   description:
-    "Professional cleaning services with hotel-level detail for homes and businesses. Residential & commercial cleaning by expert teams.",
+    "Prestige Cleaning By Caro provides professional cleaning services in Dallas. Cheap cleaning, house cleaning Dallas, maid service Dallas, and home cleaning services Dallas. Residential & commercial cleaning with expert teams.",
+  keywords: "Prestige Cleaning By Caro, cleaning in Dallas, cheap cleaning, cleaning services Dallas TX, cleaning service Dallas Texas, house cleaning Dallas, maid service Dallas, home cleaning services Dallas, housecleaning, residential cleaning Dallas, commercial cleaning Dallas",
 }
 
 export default function Home() {

@@ -11,8 +11,9 @@ const playfair = Playfair_Display({ subsets: ["latin"], weight: ['400', '500', '
 const cinzel = Cinzel({ subsets: ["latin"], weight: ['400', '500', '600', '700'], variable: '--font-display' });
 
 export const metadata: Metadata = {
-  title: 'Prestige Cleaning By Caro | Premium Cleaning Services',
-  description: 'Experience exceptional cleaning services that leave more than just a fresh scent – they leave a lasting impression. Residential and commercial cleaning.',
+  title: 'Prestige Cleaning By Caro | Premium Cleaning Services Dallas TX',
+  description: 'Prestige Cleaning By Caro offers professional cleaning services in Dallas. Expert house cleaning, maid services, and home cleaning solutions. Cheap cleaning services Dallas TX.',
+  keywords: 'Prestige Cleaning By Caro, cleaning in Dallas, cheap cleaning, cleaning services Dallas TX, cleaning service Dallas Texas, house cleaning Dallas, maid service Dallas, home cleaning services Dallas, housecleaning',
   generator: 'v0.app',
   icons: {
     icon: [
