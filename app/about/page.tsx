@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { WhatsAppButton } from "@/components/whatsapp-button"
+import { SmsButton } from "@/components/sms-button"
 import { InstagramButton } from "@/components/instagram-button"
 import { AboutHero } from "@/components/about/about-hero"
 import { Timeline } from "@/components/about/timeline"
@@ -21,7 +21,7 @@ export default function AboutPage() {
       <Timeline />
       <AboutCTA />
       <Footer />
-      <WhatsAppButton />
+      <SmsButton />
       <InstagramButton />
     </main>
   )

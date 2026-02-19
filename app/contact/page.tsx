@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { WhatsAppButton } from "@/components/whatsapp-button"
+import { SmsButton } from "@/components/sms-button"
 import { InstagramButton } from "@/components/instagram-button"
 import { ContactHero } from "@/components/contact/contact-hero"
 import { ContactForm } from "@/components/contact/contact-form"
@@ -23,7 +23,7 @@ export default function ContactPage() {
       <ContactInfo />
       <ContactCTA />
       <Footer />
-      <WhatsAppButton />
+      <SmsButton />
       <InstagramButton />
     </main>
   )

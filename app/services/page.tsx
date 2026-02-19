@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { WhatsAppButton } from "@/components/whatsapp-button"
+import { SmsButton } from "@/components/sms-button"
 import { InstagramButton } from "@/components/instagram-button"
 import { ServicesHero } from "@/components/services/services-hero"
 import { ServiceFeatures } from "@/components/services/service-features"
@@ -25,7 +25,7 @@ export default function ServicesPage() {
       <ProductsList />
       <ServicesCTA />
       <Footer />
-      <WhatsAppButton />
+      <SmsButton />
       <InstagramButton />
     </main>
   )
